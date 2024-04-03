@@ -1,0 +1,8 @@
+org/multiple/databases/mutltipledatabaseconnectivity/entity/mysql/Customer.class
+org/multiple/databases/mutltipledatabaseconnectivity/config/MySQLDatabaseConfig.class
+org/multiple/databases/mutltipledatabaseconnectivity/MutltipleDatabaseConnectivityApplication.class
+org/multiple/databases/mutltipledatabaseconnectivity/repository/postgre/CardRepository.class
+org/multiple/databases/mutltipledatabaseconnectivity/entity/postgre/Card.class
+org/multiple/databases/mutltipledatabaseconnectivity/config/PostgreDatabaseConfig.class
+org/multiple/databases/mutltipledatabaseconnectivity/repository/mysql/CustomerRepository.class
+org/multiple/databases/mutltipledatabaseconnectivity/controller/mysqlCustomerController.class

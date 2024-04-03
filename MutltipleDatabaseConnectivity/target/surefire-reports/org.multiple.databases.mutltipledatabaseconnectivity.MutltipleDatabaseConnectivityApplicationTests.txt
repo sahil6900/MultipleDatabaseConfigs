@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.multiple.databases.mutltipledatabaseconnectivity.MutltipleDatabaseConnectivityApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.744 s <<< FAILURE! - in org.multiple.databases.mutltipledatabaseconnectivity.MutltipleDatabaseConnectivityApplicationTests
+contextLoads  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mysqlEntityManager' defined in class path resource [org/multiple/databases/mutltipledatabaseconnectivity/config/MySQLDatabaseConfig.class]: Unsatisfied dependency expressed through method 'mysqlEntityManager' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
